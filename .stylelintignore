@@ -1,0 +1,12 @@
+# Third party
+node_modules/
+
+# Public
+public/
+
+# Build
+build/
+
+# next.js
+/.next/
+/out/
