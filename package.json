@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "lint:ts": "eslint src/**/*.{ts,tsx} --max-warnings=0",
-    "format:ts": "eslint --fix 'src/**/*.{ts,tsx}'"
+    "lint:css": "stylelint 'src/**/*.css'",
+    "format:ts": "eslint --fix 'src/**/*.{ts,tsx}'",
+    "format:css": "stylelint --fix 'src/**/*.css'"
   },
   "dependencies": {
     "@next/font": "13.1.6",
