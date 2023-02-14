@@ -13,6 +13,14 @@
     "format:css": "stylelint --fix 'src/**/*.css'",
     "prepare": "rm -rf .git/hooks && mkdir .git/hooks && npx lefthook install -f && chmod ug+x .git/hooks/*"
   },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "npm run lint:js"
+    ],
+    "src**/*.css": [
+      "npm run lint:css"
+    ]
+  },
   "dependencies": {
     "@next/font": "13.1.6",
     "@types/node": "18.13.0",
