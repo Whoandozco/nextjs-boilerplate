@@ -10,7 +10,8 @@
     "lint:ts": "eslint src/**/*.{ts,tsx} --max-warnings=0",
     "lint:css": "stylelint 'src/**/*.css'",
     "format:ts": "eslint --fix 'src/**/*.{ts,tsx}'",
-    "format:css": "stylelint --fix 'src/**/*.css'"
+    "format:css": "stylelint --fix 'src/**/*.css'",
+    "prepare": "rm -rf .git/hooks && mkdir .git/hooks && npx lefthook install -f && chmod ug+x .git/hooks/*"
   },
   "dependencies": {
     "@next/font": "13.1.6",
