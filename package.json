@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "npm-run-all lint:*",
     "lint:ts": "eslint src/**/*.{ts,tsx} --max-warnings=0",
     "lint:css": "stylelint 'src/**/*.css'",
     "format:ts": "eslint --fix 'src/**/*.{ts,tsx}'",
