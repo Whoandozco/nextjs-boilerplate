@@ -16,7 +16,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "npm run lint:js"
+      "npm run lint:ts"
     ],
     "src**/*.css": [
       "npm run lint:css"
