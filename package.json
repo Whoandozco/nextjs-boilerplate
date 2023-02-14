@@ -9,6 +9,7 @@
     "lint": "npm-run-all lint:*",
     "lint:ts": "eslint src/**/*.{ts,tsx} --max-warnings=0",
     "lint:css": "stylelint 'src/**/*.css'",
+    "format": "npm-run-all format:*",
     "format:ts": "eslint --fix 'src/**/*.{ts,tsx}'",
     "format:css": "stylelint --fix 'src/**/*.css'",
     "prepare": "rm -rf .git/hooks && mkdir .git/hooks && npx lefthook install -f && chmod ug+x .git/hooks/*"
