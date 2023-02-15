@@ -71,8 +71,8 @@ This boilerplate is meant to be customized to fit your project's needs. Here are
 - **TailwindCSS configuration** - You can modify the `tailwind.config.js` file to customize the configuration of TailwindCSS.
 - **ESLint configuration** - You can modify the `.eslintrc.js` file to customize the configuration of ESLint.
 - **Prettier configuration** - You can modify the `.prettier.config.js` file to customize the configuration of Prettier.
-- **Commitlint configuration** - You can modify the `commitlint.config.js` file to customize the configuration of Commitlint.
-- **Stylelint configuration** - You can modify the `.stylelint.config.js` file to customize the configuration of Stylelint.
+- **Commitlint configuration** - You can modify the `commitlint.config.js` file to customize the configuration of Commitlint. Initial configuration with: `conventional-changelog-conventionalcommits`
+- **Stylelint configuration** - You can modify the `.stylelint.config.js` file to customize the configuration of Stylelint. Initial configuration with: `stylelint-config-standard` and `stylelint-config-prettier`
 
 ## License
 This project is licensed under the MIT License.
